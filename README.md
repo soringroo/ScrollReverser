@@ -16,6 +16,20 @@ This repository provides a simple AutoHotkey script to reverse the mouse wheel s
      ```
 3. Close the window or exit the script to restore normal behavior.
 
+## Download
+
+Precompiled builds are provided for convenience. Head to the GitHub
+[Releases](https://github.com/soringroo/ScrollReverser/releases) page and
+download `ScrollReverser.exe`. Running the executable does not require
+AutoHotkey to be installed.
+
+To build the executable yourself, use the `Ahk2Exe` tool included with
+AutoHotkey:
+
+```cmd
+Ahk2Exe.exe /in ScrollReverser.ahk /out ScrollReverser.exe
+```
+
 ## Notes
 
 The script swaps the `WheelUp` and `WheelDown` actions while active. It does not modify any system settings and stops affecting scrolling once it exits.
